@@ -26,3 +26,4 @@ The homotopic poem uses the concept of ''null homotopic curves'', the ones that 
 
 ![Nullhomotopico](nullhomotopico.jpg)
 
+
