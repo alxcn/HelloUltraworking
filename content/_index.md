@@ -1,13 +1,14 @@
 ---
-title: "Alejandro Ucan-Puc"
-subtitle: ""
+title: "Manuel Alejandro Ucan-Puc"
+subtitle: "Math researcher, poetry enthusiast, amateur photographer."
 description: ""
 date:
 images:
+  #- img/sky.jpg
   - img/aup.jpg
-image_left: true
-text_align_left: false
-show_social_links: false # specify social accounts in site config
+image_left: false
+text_align_left: true
+show_social_links: true # specify social accounts in site config
 show_action_link: true
 action_link: /about
 action_label: "Research &rarr;"

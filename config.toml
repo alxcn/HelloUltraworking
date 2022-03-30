@@ -1,7 +1,7 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal website of Alejandro Ucan-Puc"
+title = "Hello Ultraworking"
 author = "Alejandro Ucan-Puc"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -33,22 +33,22 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   #favicon = "/img/favicon.ico"
   #logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["papers", "i.rracionalx"]
+  mainSections = []
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
-  socialInHeader = false
-  socialInFooter = true
+  socialInHeader = true
+  socialInFooter = false
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  #sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/sky.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   #twitter = "apreshill"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "poppy"
+  theme = "sky"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,12 +61,12 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = ""
+  customheadingFontFamily = ""
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
-  textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+  textFontFamily = "Athelas"
+  headingFontFamily = "Baskerville"
   
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below
@@ -106,20 +106,20 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Papers & Preprints"
-    title = "papers"
-    url = "/papers/"
-    weight = 2
-  [[menu.header]]
-    name = "I.rracionalx"
-    title = "i.rracionalx"
-    url = "/i.rracionalx/"
+    name = "photos"
+    title = "My Favorite Photos"
+    url = "/photos/"
     weight = 3
   #[[menu.header]]
-  #  name = "Talks"
-  #  title = "Talks"
-  #  url = "/talk/"
-  #  weight = 4
+  #  name = "irracionalx"
+  #  title = "i.rracionalx"
+  #  url = "/i.rracionalx/"
+  #  weight = 2
+  [[menu.header]]
+    name = "popular science"
+    title = "Popular Science"
+    url = "/popularscience/"
+    weight = 2
     
   # Configure footer  
   #[[menu.footer]]
