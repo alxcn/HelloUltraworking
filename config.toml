@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://helloworldalxcn.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Hello Ultraworking"
